@@ -1,90 +1,68 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Tech Summit Ethiopia 2025
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A modern, responsive website for the biggest tech gathering in Ethiopia - where innovation meets opportunity.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## 🌐 Live Website
 
----
+**Visit the live site:** [https://linat117.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/](https://linat117.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 📋 Project Purpose
 
-Before you write any code, take time to plan:
+Tech Summit Ethiopia 2025 is a comprehensive event website designed to showcase and promote the biggest tech gathering in Ethiopia. The website serves as a central hub for:
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+- **Event Information**: Providing details about the summit, its purpose, and what attendees can expect
+- **Registration**: Allowing visitors to purchase tickets and register for the event
+- **Schedule Management**: Displaying the event schedule with interactive accordion functionality
+- **Contact & Support**: Offering multiple ways for potential attendees to get in touch
+- **Countdown Timer**: Building excitement with a real-time countdown to the event
 
-**Goal:** Show intentional structure and user journey across the site.
+## 🏗️ Project Structure
 
----
+```
+plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+├── index.html          # Homepage with hero section, highlights, and countdown
+├── schedule.html       # Event schedule with interactive accordion
+├── tickets.html        # Ticket purchase form with validation
+├── contact.html        # Contact form for inquiries
+├── css/
+│   └── style.css       # Main stylesheet with responsive design
+├── js/
+│   └── script.js       # JavaScript for interactivity and countdown timer
+└── README.md           # Project documentation
+```
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🎨 Design Features
 
-Using your plan, begin building:
+- **Modern UI**: Clean, professional design with light blue and white color scheme
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Interactive Elements**: 
+  - Mobile hamburger menu
+  - Countdown timer with real-time updates
+  - Accordion-style schedule display
+  - Form validation for tickets and contact
+- **Smooth Animations**: Hover effects and transitions throughout the site
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+## 🛠️ Technologies Used
 
-Each page should:
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Responsive design, flexbox, grid, animations, and modern styling
+- **JavaScript**: Interactive functionality, countdown timer, form validation, and mobile menu
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+## 📱 Responsive Design
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+The website is fully responsive and optimized for:
+- **Desktop**: Full layout with multiple columns
+- **Tablet**: Adaptive grid layouts
+- **Mobile**: Single-column layout with touch-friendly navigation
 
----
+## 🚀 Deployment
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+The website is deployed using **GitHub Pages**, providing:
+- Fast loading times
+- Reliable hosting
+- Easy updates and maintenance
+- Professional URL structure
 
-Before deployment, refactor your project to follow production-friendly practices:
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+*Built by Hilina Teshome as part of the PLP Web Technologies Final Project - July 2025*
