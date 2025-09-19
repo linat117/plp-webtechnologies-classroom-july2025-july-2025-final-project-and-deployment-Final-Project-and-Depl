@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Summit 2025 | Home</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <header>
-      <nav>
-        <h1 class="logo">Tech Summit 2025</h1>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="speakers.html">Speakers</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-          <li><a href="tickets.html">Tickets</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Hero Section with Countdown -->
-    <section class="hero">
-      <h2>Welcome to Tech Summit 2025</h2>
-      <p>
-        Join us for an unforgettable experience in innovation and technology!
-      </p>
-      <div id="countdown">
-        <p>Event Starts In:</p>
-        <span id="days">00</span>d : <span id="hours">00</span>h :
-        <span id="minutes">00</span>m : <span id="seconds">00</span>s
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Summit Ethiopia 2025</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <header>
+    <nav>
+      <h1 class="logo">TechSummit</h1>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <a href="tickets.html" class="btn">Get Tickets</a>
-    </section>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Footer -->
-    <footer>
-      <p>&copy; 2025 Tech Summit. All rights reserved.</p>
-    </footer>
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Tech Summit Ethiopia 2025</h2>
+      <p>The biggest tech gathering of the year – where innovation meets opportunity.</p>
+      <a href="tickets.html" class="btn">Grab Your Ticket</a>
+    </div>
+  </section>
 
-    <script src="js/script.js"></script>
-  </body>
+  <!-- Event Highlights Section -->
+  <section class="highlights">
+    <h2>Why Join Us?</h2>
+    <div class="highlight-cards">
+      <div class="card">
+        <h3>Networking</h3>
+        <p>Meet industry leaders, startups, and innovators in one place.</p>
+      </div>
+      <div class="card">
+        <h3>Workshops</h3>
+        <p>Hands-on sessions to boost your skills in AI, Web, and Cloud tech.</p>
+      </div>
+      <div class="card">
+        <h3>Keynotes</h3>
+        <p>Hear from the world’s top minds about the future of technology.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Countdown Section -->
+  <section class="countdown">
+    <h2>Event Starts In</h2>
+    <div id="timer">
+      <span id="days">0</span> days 
+      <span id="hours">0</span> hours 
+      <span id="minutes">0</span> minutes 
+      <span id="seconds">0</span> seconds
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tech Summit Ethiopia. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
